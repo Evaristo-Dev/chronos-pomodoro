@@ -1,8 +1,11 @@
 import styles from './Heading.module.css';
-export function Heading() {
+type HeadingProps = {
+  children?: String;
+};
+export function Heading(props: HeadingProps) {
   return (
     <h1 className={styles.heading}>
-      Hello
+      {props.children}
     </h1>
   );
 }
