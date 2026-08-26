@@ -1,0 +1,12 @@
+@import url('../styles/theme.css');
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-top: 3.4rem;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: large;
+}

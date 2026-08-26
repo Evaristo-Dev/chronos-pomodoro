@@ -1,7 +1,13 @@
-import './App.css'
+import './styles/global.css';
+import './styles/theme.css';
+import { Heading } from './components/Heading';
+import { Timer } from 'lucide-react';
 function App() {
     return <>
-        <h1 className="h1">Olá, Chronos Pomodoro!</h1>
+       <Heading>
+            <Timer/>
+            <h1>Chronos</h1>  
+       </Heading>
     </>
 }
 
